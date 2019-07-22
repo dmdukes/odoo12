@@ -4,7 +4,7 @@ sudo apt install git python3-pip build-essential wget python3-dev python3-venv p
 
 sudo useradd -m -d /opt/odoo12 -U -r -s /bin/bash odoo12
 
-sudo apt install postgresql
+sudo apt-get install postgresql
 
 sudo su - postgres -c "createuser -s odoo12"
 
